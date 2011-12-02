@@ -1,0 +1,14 @@
+name:  BiomeSound
+version:  1.1.3
+description:  adds Sounds to Biomes
+author:  rbs90
+website:  http://tu-chemnitz.de/~rbs
+
+main:  de.rbs90.bukkit.plugins.biomeSounds.BiomeSoundMain
+
+commands:
+  biome:
+    description: Returns current biome.
+    aliases: [b]
+    permission: biomeSound.biome
+    usage: Syntax error! Simply type /<command> to ignite yourself.
